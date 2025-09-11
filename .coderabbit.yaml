@@ -10,11 +10,11 @@ reviews:
   assess_linked_issues: true
   related_issues: true
   path_instructions:
-    - path: 'blueledger-webapp/app/**/*.{ts,tsx}'
+    - path: 'app/**/*.{ts,tsx}'
       instructions: Review the Typescript and React code according to conventions and best practices.
-    - path: 'blueledger-webapp/app/api/**'
+    - path: 'app/api/**'
       instructions: Verify API routes handle errors gracefully and follow RESTful conventions.
-    - path: 'blueledger-webapp/app/**/*.test.{ts,tsx}'
+    - path: 'app/**/*.test.{ts,tsx}'
       instructions: 'Ensure that test files effectively cover various scenarios and edge cases, and follow testing conventions.'
   auto_review:
     enabled: true
