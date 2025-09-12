@@ -7,7 +7,9 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "check:deps": "knip"
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.13.8",
@@ -27,6 +29,7 @@
     "eslint-plugin-format": "^1.0.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "knip": "^5.63.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
