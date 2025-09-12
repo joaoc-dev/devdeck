@@ -7,8 +7,12 @@ DevDeck is a modern, mobile-friendly learning platform that combines progress tr
 ### Built with:
 
 - ⏭️ Next.js 15.5.3 (App Router)
+- 🌱 Type-safe environment variables by T3 Env
 - 🧹 Code Linting with ESLint (Antfu configuration)
 - 🛡️ Strict Typescript configuration
+- ✂️ Declutter of unused files and dependencies by Knip
+- 🛠️ Automated dependency updates by Dependabot
+- 🚀 Automated versioning and changelog generation by semantic-release
 - 🐰 AI Code Reviews by CodeRabbit
 - ⚙️ Continuous Integration powered by GitHub Actions
   - Type-checking, linting, dependency checks
